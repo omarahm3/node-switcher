@@ -1,0 +1,24 @@
+{
+  "name": "mrg_switcher",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": "Omar Ahmed <omarking05@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4",
+    "commander": "^8.3.0",
+    "conf": "^10.1.1",
+    "simple-git": "^2.48.0"
+  },
+  "bin": {
+    "switcher": "./bin/run.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm-proxy.fury.io/mrg3ek/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:omarking05/cb_switcher.git",
+    "directory": "@mrg3ek/cb_switcher"
+  }
+}
