@@ -1,24 +1,42 @@
 {
-  "name": "mrg_switcher",
-  "version": "1.0.1",
-  "main": "index.js",
-  "author": "Omar Ahmed <omarking05@gmail.com>",
+  "name": "@mrgeek/switcher",
+  "version": "0.0.1-alpha",
+  "main": "bin/run.js",
+  "author": "Omar Ahmed <me@mrg.sh> (https://mrg.sh)",
+  "description": "Multi git repositories project organizer",
   "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true,
+  "keywords": [
+    "git",
+    "microservices",
+    "projects"
+  ],
+  "homepage": "https://github.com/omarahm3/node-switcher",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/omarahm3/node-switcher.git"
+  },
   "dependencies": {
     "chalk": "4",
     "commander": "^8.3.0",
     "conf": "^10.1.1",
     "simple-git": "^2.48.0"
   },
+  "scripts": {
+    "start": "$npm_package_bin_switcher"
+  },
   "bin": {
-    "switcher": "./bin/run.js"
+    "switcher": "bin/run.js"
   },
-  "publishConfig": {
-    "registry": "https://npm-proxy.fury.io/mrg3ek/"
+  "bugs": {
+    "url": "https://github.com/omarahm3/node-switcher/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com:omarking05/cb_switcher.git",
-    "directory": "@mrg3ek/cb_switcher"
-  }
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
 }
