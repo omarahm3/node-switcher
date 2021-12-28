@@ -1,6 +1,6 @@
 {
   "name": "@mrgeek/switcher",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "main": "bin/run.js",
   "author": "Omar Ahmed <me@mrg.sh> (https://mrg.sh)",
   "description": "Multi git repositories project organizer",
@@ -13,7 +13,9 @@
   "keywords": [
     "git",
     "microservices",
-    "projects"
+    "projects",
+    "cli",
+    "automation"
   ],
   "homepage": "https://github.com/omarahm3/node-switcher",
   "repository": {
